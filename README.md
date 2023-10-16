@@ -6,6 +6,6 @@ This project is, in essence, a way to pay homage to a design movement that is st
 
 UX/UI design by [Lander Zaro](https://landerzaro.com/).
 
-Please don't hesitate to explore the [prototype](https://nikebauhaus.vercel.app/) and have fun testing out the 3D sneaker visor!
+Please don't hesitate to explore the [Nike Bauhaus Prototype](https://nikebauhaus.vercel.app/) and have fun testing out the 3D sneaker visor!
 
 ![image](https://github.com/dasjn/Nike-Bauhaus/assets/121608545/dcc2432e-d5d3-4ca6-8eb3-0c8b94ecb32a)
