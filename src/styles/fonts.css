@@ -1,0 +1,13 @@
+/* Bicyclette Font */
+
+@font-face {
+    font-family: "Bicyclette-Bold";
+    src: url(../../public/fonts/bicyclette/Bicyclette-Bold.ttf) format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SpaceMono-Regular";
+    src: url(../../public/fonts/spaceMono/SpaceMono-Regular.ttf) format('truetype');
+    font-style: normal;
+}

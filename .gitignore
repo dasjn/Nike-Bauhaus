@@ -1,0 +1,32 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore Vercel deployment configuration
+.vercel/
+
+# Ignore Vite build output
+/dist/
+.build/
+node_modules/
+yarn-error.log
+
+# Ignore local development server caches
+node_modules/.cache/
+
+# Ignore package lock file if you're using Yarn
+yarn.lock
+
+# Ignore environment-specific config files
+.env
+.env.local
+
+# Ignore Vercel configuration file
+vercel.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore the 'models' folder inside the 'public' directory
+public/models/
+public/fonts/
