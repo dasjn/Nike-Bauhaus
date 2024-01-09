@@ -80,6 +80,7 @@
 }
 
 .image-width-125 {
+    width: 100%;
     max-width: 125%;
 }
 

@@ -8,6 +8,7 @@ import LandingPage from "./routes/LandingPage";
 import MobileLandingPage from "./routes/MobileLandingPage";
 import ShopPage from "./routes/ShopPage";
 import MobileShopPage from "./routes/MobileShopPage";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const isMobile = useIsMobile();
@@ -34,5 +35,11 @@ export default function App() {
 
   const router = createRouter(); // Call the createRouter function and store the result in router
   
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <RouterProvider router={router} />
+      <Analytics />
+    </>
+  )
+  
 }

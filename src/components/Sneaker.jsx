@@ -91,8 +91,8 @@ export function SneakerWhite(props) {
   );
 }
 
-useGLTF.preload("./models/NikeAirMaxBauhaus.glb");
-useGLTF.preload("./models/NikeAirMaxGreen.glb");
-useGLTF.preload("./models/NikeAirMaxWoman.glb");
-useGLTF.preload("./models/NikeAirMaxBlue.glb");
-useGLTF.preload("./models/NikeAirMaxWhite.glb");
+// useGLTF.preload("./models/NikeAirMaxBauhaus.glb");
+// useGLTF.preload("./models/NikeAirMaxGreen.glb");
+// useGLTF.preload("./models/NikeAirMaxWoman.glb");
+// useGLTF.preload("./models/NikeAirMaxBlue.glb");
+// useGLTF.preload("./models/NikeAirMaxWhite.glb");

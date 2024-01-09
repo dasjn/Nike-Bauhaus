@@ -87,7 +87,10 @@ export default function Footer(props) {
                     </div>
                 </div>
             </div>
-            <section className="footer-extra-space"></section>
+            <section className="footer-extra-space">
+                <span className="disclaimer">All displayed content on this website belongs to its respective owners and creators. Our platform is designed solely for showcasing creativity and art, with no intention of generating profits.</span>
+                <span className="disclaimer">If you believe any content should be removed, kindly inform us, and we will promptly address your concerns.</span> 
+            </section>
         </footer>
     )
 }

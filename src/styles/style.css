@@ -63,7 +63,6 @@ h2 {
     overflow: hidden;
 }
 
-
 h3 {
     margin: 0px;
     font-family: "Bicyclette-Bold";
@@ -270,8 +269,29 @@ a {
 }
 
 .footer-extra-space {
+    grid-column: 1 / 7;
     width: 100%;
     height: max(16vh, 120px);
+    align-items: center;
+    padding: min(4.2vw, 60px);
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.disclaimer {
+    margin: 0px;
+    font-family: "SpaceMono-Regular";
+    font-size: 12px
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    color: var(--BAUHAUS-RED, #ED1B24);
 }
 
 
@@ -561,7 +581,28 @@ a {
     z-index: 9999 !important;
   }
   
-
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1.5s ease-in-out; /* Add a transition property for smooth animation */
+  }
+  
+  .loading-screen.hidden {
+    transform: translateY(-150%); /* Move the div upwards by its height (off-screen) */
+  }
+  
+  .loading-screen.visible {
+    overflow:hidden;
+    transform: translateY(0); /* Bring the div back to its original position */
+  }
 
 /* Media queries */
 @media (max-width: 1439px) {

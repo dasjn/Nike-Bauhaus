@@ -30,3 +30,4 @@ Thumbs.db
 # Ignore the 'models' folder inside the 'public' directory
 public/models/
 public/fonts/
+.vercel

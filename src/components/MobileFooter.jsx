@@ -32,6 +32,9 @@ export default function MobileFooter() {
                     </div>
                 </div>
             </div>
+            <section className="footer-extra-space">
+                <span className="disclaimer">Created exclusively for showcasing creativity and art—no profits intended.</span>
+            </section>
         </footer>
     )
 }

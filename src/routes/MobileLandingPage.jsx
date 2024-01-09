@@ -269,7 +269,7 @@ export function OurTribute() {
                 <div className="mobile-item"></div>
                 <div className="mobile-item">
                     <div className="image-container">
-                        <img loading="lazy" className="image-width-100" src="./images/tribute/Bauhaus_Tribute_02.jpg" alt="Bauhaus tribute shoe in building Image"/>
+                        <img loading="lazy" className="image-width-100" src="./images/tribute/Bauhaus_Tribute_02_sd.jpeg" alt="Bauhaus tribute shoe in building Image"/>
                     </div>
                 </div>
             </div>

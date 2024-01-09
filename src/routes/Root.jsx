@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Outlet, ScrollRestoration } from "react-router-dom"
+import LoadingScreen from "../components/LoadingScreen.jsx"
 import Cursor from "../components/Cursor.jsx"
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
@@ -10,6 +11,7 @@ export default function Root() {
 
     return(
         <>
+            <LoadingScreen />
             <Cursor />
             <Header setNotificationOverlay={setNotificationOverlay}/>
             <Outlet context={[ setNotificationOverlay ]}/>

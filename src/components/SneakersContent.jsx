@@ -57,7 +57,7 @@ export function BauhausEdContent() {
                 <div className="content-cell"></div>
                 <div className="content-cell">
                     <div className="image-container">
-                        <img loading="lazy" className="image-width-100" src="./images/sneaker/React_Shop_Bauhaus_06.jpg" alt="Bauhaus shoe Image"/>
+                        <img loading="lazy" className="image-width-100" src="./images/sneaker/React_Shop_Bauhaus_06_v2.jpg" alt="Bauhaus shoe Image"/>
                     </div>
                 </div>
                 <div id="sneakerInfo" className="content-cell">
