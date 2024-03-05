@@ -11,6 +11,10 @@
     --BORDER-SIZE: 2px solid;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 canvas {
     touch-action: none;
 }
@@ -603,6 +607,12 @@ a {
     overflow:hidden;
     transform: translateY(0); /* Bring the div back to its original position */
   }
+
+
+
+
+
+
 
 /* Media queries */
 @media (max-width: 1439px) {

@@ -8,12 +8,15 @@ import './styles/mobile.css'
 import App from './App.jsx'
 import { IsMobileProvider } from './IsMobileContext'
 
-const root = ReactDOM.createRoot(document.querySelector('#root'))
+document.addEventListener('DOMContentLoaded', () => {
 
-root.render(
-    <React.StrictMode>
-        <IsMobileProvider>
-            <App />
-        </IsMobileProvider>
-    </React.StrictMode>
-)
+    const root = ReactDOM.createRoot(document.querySelector('#root'))
+
+    root.render(
+        <React.StrictMode>
+            <IsMobileProvider>
+                <App />
+            </IsMobileProvider>
+        </React.StrictMode>
+    )
+});

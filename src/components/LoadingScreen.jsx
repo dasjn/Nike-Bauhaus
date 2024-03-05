@@ -6,9 +6,10 @@ export default function LoadingScreen() {
   const [loading, setLoading] = useState(true)
   const lottieRef = useRef(null)
 
-  const handleAnimationComplete = () => {
+  const handleAnimationComplete = ({ onLoadingChange }) => {
     // Animation is complete, set loading to false to start the removal animation
     setLoading(false);
+    onLoadingChange(false)
   };
 
   const handleTransitionEnd = () => {

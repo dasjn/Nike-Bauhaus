@@ -7,11 +7,26 @@ import Footer from "../components/Footer.jsx"
 import OverlayNotification from "../components/OverlayNotification.jsx"
 
 export default function Root() {
+    const [loading, setLoading] = useState(true);
     const [notificationOverlay, setNotificationOverlay] = useState(false)
+
+    const handleLoadingChange = (newLoadingState) => {
+        setLoading(newLoadingState);
+    };
+
+    useEffect(() => {
+        const body = document.body;
+        console.log(body)
+        if (loading) {
+          body.classList.add('no-scroll');
+        } else {
+          body.classList.remove('no-scroll');
+        }
+    }, [loading]);
 
     return(
         <>
-            <LoadingScreen />
+            <LoadingScreen onLoadingChange={handleLoadingChange}/>
             <Cursor />
             <Header setNotificationOverlay={setNotificationOverlay}/>
             <Outlet context={[ setNotificationOverlay ]}/>
